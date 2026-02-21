@@ -18,6 +18,13 @@ Kubernentes has evolved based on the drawbacks of Docker.
   2) Worker Node => Also called as Data Plane (Executes the actions)
      
 
-> Control Plane	Data Plane
-	
-<img width="351" height="59" alt="image" src="https://github.com/user-attachments/assets/98db22ed-0504-4608-afd6-f8374ad6bb9b" />
+Control Plane	Data Plane
+"1) API Server
+2) etcd
+3) Scheduler
+4) Controller Manager
+5) Cloud Controller Manager"	"1) Kubelet
+2) Kubelet-proxy
+3) Container Runtime"
+<img width="690" height="175" alt="image" src="https://github.com/user-attachments/assets/274009cb-17f2-4092-ab4a-16538bb96582" />
+
